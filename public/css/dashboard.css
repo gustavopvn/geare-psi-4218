@@ -10319,11 +10319,11 @@ body.fixed-header .page {
 	border-bottom: 1px solid #d7e7ff;
 }
 .header-bg {
-	background: #1643A3;
+	background: #005CA9;
 	/* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #1643A3, #736cc7);
+	background: -webkit-linear-gradient(to right, #005CA9, #54BBAB,#AFCA0B);
 	/* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #1643A3, #736cc7);
+	background: linear-gradient(to right, #005CA9, #54BBAB,#AFCA0B);
 }
 body.fixed-header .header {
 	position: fixed;
