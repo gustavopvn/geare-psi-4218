@@ -11,26 +11,26 @@
 		<meta name="mobile-web-app-capable" content="yes">
 		<meta name="HandheldFriendly" content="True">
 		<meta name="MobileOptimized" content="320">
-		<link rel="icon" href="./public/images/favicon.ico" type="image/x-icon">
-		<link rel="shortcut icon" type="image/x-icon" href="./public/images/favicon.ico">
+		<link rel="icon" href="<?php echo URL; ?>public/images/favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" type="image/x-icon" href="<?php echo URL; ?>public/images/favicon.ico">
 
 		
-		<link rel="stylesheet" href="./public/fonts/fonts/font-awesome.min.css">
+		<link rel="stylesheet" href="<?php echo URL; ?>public/fonts/fonts/font-awesome.min.css">
 		
 		<!-- Font Family -->
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 
 		<!-- Dashboard Css -->
-		<link href="./public/css/dashboard.css" rel="stylesheet">
+		<link href="<?php echo URL; ?>public/css/dashboard.css" rel="stylesheet">
 
 		<!-- c3.js Charts Plugin -->
-		<link href="./public/plugins/charts-c3/c3-chart.css" rel="stylesheet">
+		<link href="<?php echo URL; ?>public/plugins/charts-c3/c3-chart.css" rel="stylesheet">
 		
 		<!-- Custom scroll bar css-->
-		<link href="./public/plugins/scroll-bar/jquery.mCustomScrollbar.css" rel="stylesheet">
+		<link href="<?php echo URL; ?>public/plugins/scroll-bar/jquery.mCustomScrollbar.css" rel="stylesheet">
 		
 		<!---Font icons-->
-		<link href="./public/plugins/iconfonts/plugin.css" rel="stylesheet">
+		<link href="<?php echo URL; ?>public/plugins/iconfonts/plugin.css" rel="stylesheet">
         
         <!-- Title -->
         <title>GEARE - PSI 4219 - c131543 - Realize por Unidade</title>
@@ -42,13 +42,13 @@
     <div class="container">
         <div class="d-flex">
             <a class="header-brand" href="../">
-                <img src="./public/images/brand/logo-x.png" class="header-brand-img" alt="Logo da Caixa">
+                <img src="<?php echo URL; ?>public/images/brand/logo-x.png" class="header-brand-img" alt="Logo da Caixa">
             </a>
             <div class="d-flex order-lg-2 ml-auto">
                 
                 <div class="dropdown mt-1">
                     <a class="nav-link pr-0 leading-none" data-toggle="dropdown">
-                        <span class="avatar avatar-md brround" style="background-image: url(./public/images/faces/female/25.jpg)"></span>
+                        <span class="avatar avatar-md brround" style="background-image: url(<?php echo URL; ?>public/images/faces/female/25.jpg)"></span>
                         <span class="ml-2 d-none d-lg-block">
                             <span class="text-white">Nome do Usuário</span>
                         </span>
@@ -72,7 +72,7 @@
                 <div class="sub-item">
                     <ul>
                         <li>
-                            <a href="./realize/relatorioUnidade">Relatório por unidade</a>
+                            <a href="<?php echo URL; ?>realize/relatorioUnidade">Relatório por unidade</a>
                         </li>
                     </ul>
                 </div>
@@ -83,12 +83,12 @@
                 <div class="sub-item">
                     <ul>
                         <li>
-                            <a href="index.html">Trabalhos na Caixa</a>
+                            <a href="<?php echo URL; ?>trabalhos/caixa">Trabalhos na Caixa</a>
                         </li>
                     </ul>
                     <ul>
                         <li>
-                            <a href="index.html">Outros Trabalhos</a>
+                            <a href="<?php echo URL; ?>trabalhos/outros">Outros Trabalhos</a>
                         </li>
                     </ul>
                 </div>
