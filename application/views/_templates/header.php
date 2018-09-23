@@ -14,35 +14,40 @@
 		<link rel="icon" href="<?php echo URL; ?>public/images/favicon.ico" type="image/x-icon">
 		<link rel="shortcut icon" type="image/x-icon" href="<?php echo URL; ?>public/images/favicon.ico">
 
-		
+        
 		<link rel="stylesheet" href="<?php echo URL; ?>public/fonts/fonts/font-awesome.min.css">
 		
 		<!-- Font Family -->
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 
 		<!-- Dashboard Css -->
-		<link href="<?php echo URL; ?>public/css/dashboard.css" rel="stylesheet">
-
+        <link href="<?php echo URL; ?>public/css/dashboard.css" rel="stylesheet">
+        
 		<!-- c3.js Charts Plugin -->
 		<link href="<?php echo URL; ?>public/plugins/charts-c3/c3-chart.css" rel="stylesheet">
+
+        <!-- AOS On Scroll Effects Plugin -->
+		<link href="<?php echo URL; ?>public/plugins/aos/aos.css" rel="stylesheet">
+        <script src="<?php echo URL; ?>public/plugins/aos/aos.js"></script>
 		
 		<!-- Custom scroll bar css-->
 		<link href="<?php echo URL; ?>public/plugins/scroll-bar/jquery.mCustomScrollbar.css" rel="stylesheet">
 		
 		<!---Font icons-->
-		<link href="<?php echo URL; ?>public/plugins/iconfonts/plugin.css" rel="stylesheet">
-        
+        <link href="<?php echo URL; ?>public/plugins/iconfonts/plugin.css" rel="stylesheet">
+               
         <!-- Title -->
         <title>GEARE - PSI 4219 - c131543 - Realize por Unidade</title>
         
-	<style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
+	    <style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
+        
 <body>
 <!-- header -->
 <div class="header py-4">
     <div class="container">
         <div class="d-flex">
-            <a class="header-brand" href="../">
-                <img src="<?php echo URL; ?>public/images/brand/logo-x.png" class="header-brand-img" alt="Logo da Caixa">
+            <a class="header-brand" href="<?php echo URL; ?>">
+                <img src="<?php echo URL; ?>public/images/brand/logo-x.png" class="header-brand-img" alt="Logo da Caixa" data-aos="flip-left">
             </a>
             <div class="d-flex order-lg-2 ml-auto">
                 
@@ -97,3 +102,5 @@
     </div>
 </div>
                             
+
+<script  src="https://code.jquery.com/jquery-3.3.1.min.js"  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="  crossorigin="anonymous"></script>

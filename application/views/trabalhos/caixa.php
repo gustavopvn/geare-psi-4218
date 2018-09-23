@@ -1,3 +1,10 @@
+<script type="text/javascript">
+    AOS.init({
+      offset: 200,
+      duration: 1000,
+      delay: 50,
+    });
+</script>
 <div class="page">
     <div class="page-main">
         <div class="bg-indigo-lighter">
@@ -87,3 +94,5 @@
         </div>
     </div>
 </div>
+<!-- Back to top-->
+<a href="#top" id="back-to-top" style="display: inline;"><i class="fa fa-angle-up"></i></a>
